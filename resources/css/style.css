@@ -1,0 +1,217 @@
+﻿body, html {
+    height:100%;
+    width:100%;
+    min-height:100%;
+    padding:0;
+    margin:0;
+}
+
+.header-title {
+    font-family: 'Bungee Inline', cursive;
+    font-size: 5em;
+    color: #40C4FF;
+    text-align: center;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.login-screen {
+    width: 30%;
+    height: 30em;
+    margin: auto;
+    background-color: #40C4FF;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.ls-top-half {
+    width: 100%;
+    height: 40%;
+    text-align: center;
+}
+
+#login-face {
+    color: #0288D1;
+    font-size: 10em;
+    padding-top: 0.1em; 
+
+}
+
+.login-details {
+    width: 100%;
+    height: 35%;
+    text-align: center;
+}
+
+.login-details-txt {
+    width: 80%;
+    height: 3em;
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.9em;
+    border: solid 5px #40C4FF;
+    transition: border 0.3s;
+    padding: 0.1em;
+    padding-right: 1em;
+    padding-left: 1em;
+}
+
+
+.ls-bottom-half {
+    text-align: center;
+}
+
+.login-details-txt:focus {
+    border: solid 5px #0288D1;
+}
+
+.create-account-lbl {
+    text-decoration: none !important;
+}
+
+.button {
+    background-color: #76FF03 !important;
+    border: none;
+    color: #000;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.3em;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #F1F8E9 !important;
+    color: #000;
+}
+
+.login-btn {
+    width: 80%;
+}
+
+.create-account-box {
+    width: 25%;
+    margin: auto;
+    margin-top: 1.5em !important;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.3em;
+    color: #0288D1;
+    cursor: pointer;
+}
+
+/* Main */
+.top-tools {
+    text-align: center;
+}
+
+.refresh-btn {
+    color: #0288D1;
+    font-size: 3em;
+    display: inline-block;
+    padding-bottom: 0.3em;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.refresh-btn:hover {
+    color: #4CAF50;
+}
+
+.chat-box {
+    width: 60%;
+    padding: 0.1em;
+    margin: auto;
+    font-family: 'Roboto', sans-serif;
+    color: #000;
+    height: auto;
+}
+
+.message-box {
+    width: 59.2%;
+    left: 20%;
+    position: fixed;
+    margin-top: 0.5em !important;
+    height: 5em;
+    margin: auto;
+    bottom: 0.5em;
+    background-color: #fff;
+    border: 0.5em solid #40C4FF;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#message {
+    width: 90%;
+    height: 95%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.3em;
+    resize: none;
+    border: none;
+    float: left;
+}
+
+#sendMessage {
+    color: #0288D1;
+    font-size: 3em;
+    display: inline-block;
+    padding-top: 0.35em;
+    padding-left: 0.2em;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+#sendMessage:hover {
+    color: #4CAF50;
+}
+
+.message-tools {
+    height: 95%;
+    width: 9%;
+    text-align: center;
+    float: left;
+}
+
+/* Message Template Chat*/
+
+.sender {
+    margin-top: 0;
+    width: 20%;
+    height: 100%;
+    float: left;
+    text-align: left;
+}
+
+.sender-face {
+    font-size: 3.5em;
+    color: #40C4FF;
+}
+
+.senders-name {
+    margin-top: 0;
+}
+
+.message-content {
+    width: 80%;
+    height: 100%;
+    float: left;
+    padding-top: 0.2em;
+    text-align: left;
+}
+
+.sent-time {
+    width: 100%;
+    text-align: right;
+    float:left;
+    height: auto;
+    padding-bottom: 0.5em;
+    font-size: 0.8em;
+    border-top: 0.2em solid #0288D1;
+    padding-top: 0.5em;
+    margin-bottom: 2em;
+}

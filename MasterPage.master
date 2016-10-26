@@ -1,0 +1,30 @@
+﻿<%@ Master Language="VB" CodeFile="MasterPage.master.vb" Inherits="MasterPage" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Talkz</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Bungee+Inline|Roboto" rel="stylesheet" />
+    <link href="resources/css/style.css" rel="stylesheet" />
+    <link href="resources/css/toast.css" rel="stylesheet" />
+    <script src="resources/scripts/jquery-3.1.1.js"></script>
+    <script src="resources/scripts/functions.js"></script>
+    <script src="resources/scripts/default.js"></script>
+</head>
+<body>
+    <form runat="server">
+    <div>
+        <asp:ContentPlaceHolder ID="mainContent" runat="server">
+            
+        </asp:ContentPlaceHolder>
+
+
+
+        <!--toast notification -->
+        <div id="default-toast" class="toast-notification" style="display:none"></div>
+    </div>
+    </form>
+</body>
+</html>
