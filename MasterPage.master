@@ -11,7 +11,9 @@
     <link href="resources/css/toast.css" rel="stylesheet" />
     <script src="resources/scripts/jquery-3.1.1.js"></script>
     <script src="resources/scripts/functions.js"></script>
-    <script src="resources/scripts/default.js"></script>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+
+    </asp:ContentPlaceHolder>
 </head>
 <body>
     <form runat="server">

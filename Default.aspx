@@ -1,5 +1,9 @@
 ﻿<%@ Page Title="Talkz - Login" Language="VB" MasterPageFile="~/MasterPage.master" AutoEventWireup="false" CodeFile="Default.aspx.vb" Inherits="_Default" %>
 
+<asp:Content ID="defaultPage" runat="server" ContentPlaceHolderID="head">
+    <script src="resources/scripts/default.js"></script>
+</asp:Content>
+
 <asp:Content ID="loginPage"  runat="server" ContentPlaceHolderID="mainContent">
 
     <div runat="server">
